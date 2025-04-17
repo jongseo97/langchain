@@ -1,0 +1,24 @@
+[project]
+name = "qwen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.6.0",
+    "descriptastorus",
+    "dotenv>=0.9.9",
+    "fake-useragent>=2.1.0",
+    "langchain>=0.3.22",
+    "langchain-experimental>=0.3.4",
+    "langchain-ollama>=0.3.0",
+    "langchain-teddynote>=0.3.45",
+    "openpyxl>=3.1.5",
+    "rdkit>=2024.9.6",
+    "scikit-learn>=1.6.1",
+    "torch>=2.6.0",
+    "torch-geometric>=2.6.1",
+    "torchaudio>=2.6.0",
+    "torchvision>=0.21.0",
+    "transformers>=4.50.3",
+]
